@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/icons8-пламя-16.png" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+
+            <div class="head">
+        <h1 style="color: #545454; font-size: 35px;" >Форма для оформления заказа</h1>
+           </div>
+            
+           <div class="images">
+           </div>
+
+</div>
+
+<div class="audio">
+<audio src="" controls ></audio>
+</div>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Личная информация</legend>
+
+               <div class="table">
+                <table>
+                    <td>
+                        <label for="username">Введите ваше имя</label>
+                        <input type="text" name="username" id="username" placeholder="Введите ваше имя" required tabindex="1">
+                        <br>
+                        <label for="usermail">Введите вашу почту</label>
+            <input type="email" name="usermail" id="usermail" placeholder="examle@gmail.com" tabindex="2">
+            <br>
+                    </td>
+
+                    <td>
+                       <label for="tel">Введите номер телефона</label>
+                       <input type="tel" name="tel" id="tel" placeholder="+7 (___) ___-__-__">
+                       <br> 
+                       <label for="password">Введите ваш пароль</label>
+                       <input type="password" name="password" id="password">
+                       <br>
+                    </td>
+            </table>        
+            </div>
+            <br>
+            Ваш пол: 
+            <br>
+            <label for="male">Мужской</label>
+            <input type="radio" name="gender" id="male">
+            <br>
+            <label for="female">Женский</label>
+            <input type="radio" name="gender" id="female">
+            <p> <label for="avatar">Загрузите ваше фото</label>
+            <input type="file" name="avatar" id="avatar">
+            </p>
+           
+            </fieldset>
+
+            <fieldset>
+                <legend>Дополнительная информация</legend>
+                Выберете наиболее удобное время для связи
+                <br>
+                <label for="it">10:00-14:00</label>
+                <input type="checkbox" name="int" id="it">
+                <br>
+                <label for="it">14:00-18:00</label>
+                <input type="checkbox" name="int" id="it">
+                <br>
+                <label for="it">18:00-22:00</label>
+                <input type="checkbox" name="int" id="it">
+                <br>
+                <p>
+                <label for="about">Введите адрес:</label>
+                <textarea name="about" id="about" cols="100" rows="1"></textarea>
+                </p>
+                <p>
+                <label for="way">Наиболее удобный способ получения заказа</label>
+                <select name="way" id="way" >
+                <option value="js">Самовывоз</option>
+                <option value="html">Курьер</option>
+                <option value="css">Пункт выдачи</option>
+                <option value="css">Почтовое отеление</option></p>
+</select>
+            </fieldset>
+            
+           <br>
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button> 
+        
+        </form>
+
+    </body>
+</html>
